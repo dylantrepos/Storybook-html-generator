@@ -13,6 +13,7 @@ export const withGlobals = (StoryFn, context) => {
       myAddon,
       isInDocs,
     });
+    console.log('withGlobal.js Loaded !')
   }, [myAddon]);
   return StoryFn();
 };
